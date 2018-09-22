@@ -15,4 +15,14 @@ Material related to an Introductory Statistics Course
 
 
 
+## Markov Process 
+
+### Lesson 1 - Basic Elements 
+
+- Theory: [View](https://notes.ethereum.org/llq67xlBRWKAqnnqzD1hoA?view) (MD+MathJax)
+  - Foundations of Markov Process 
+  - Markov Chain, Hidden Markov Models, ... 
+
+
+
 
