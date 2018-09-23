@@ -1,6 +1,4 @@
 
-
-
 # Bayesian Inference 
 
 Bayesian Inference is essentially about solving an Inverse Problem which means inferring the state of something not directly observable using something directly observable which is connected to the former via some causal link 
@@ -69,6 +67,15 @@ Indicated by $P(O|H)$
 
 It represents a sort of compatibility measure between a certain $H$ latent state and a certain $O$ observed state 
 
+```graphviz
+digraph graphname { 
+    LatentSpace [label="Latent Space"]; 
+    ObservationSpace [label="Observation Space"]; 
+    
+    LatentSpace -> ObservationSpace [label="Likelihoood   "]; 
+    ObservationSpace -> LatentSpace [label="Inference"]; 
+	}
+```
 
 
 #### Notes 
@@ -80,8 +87,6 @@ It represents a sort of compatibility measure between a certain $H$ latent state
   - the $o \in \mathcal{D}$ is the function variable or input belonging to the $\mathcal{D}$ function domain and 
   - the $\theta \in \Theta$ is the function parameter belonging to the $\Theta$ function parameters space 
 - Using an analogy with a Neural Network, which is in fact a function approximator, the $o=x \in \mathcal{D}$ (let's change the notation slightly for clarity sake) is the Network Input which because of the Network Inference process will lead to an associated $y \in \mathcal{C}$ Network Output in the Codmain while $\theta \in \Theta$ are the Network Parameters 
-
-
 
 
 
