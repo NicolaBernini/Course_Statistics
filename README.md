@@ -15,10 +15,10 @@ Material related to an Introductory Statistics Course
 
 
 
-## Lesson 2 - Computational Complexity 
+### Lesson 2 - Computational Complexity 
 
 - Theory: [View](https://hackmd.io/0d55xkkqTKSRn3n2kAx6rw)
-
+  - Computational Complexity of the Integrals used in Bayesian Framework and effect on normalisation, marginalisation, estimation 
 
 
 ## Markov Process 
