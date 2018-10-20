@@ -7,6 +7,19 @@ tags: bayesian inference
 
 Bayesian Inference is associated with computational complexity because of the need to compute integrals on a state space 
 
+From a computational point of view, implementing an integral on a certain space means iterating over all the elements of that space, so $\int_{\mathcal{X}} f(\cdot) dx$ gets implemented (in Pseudo-CPP) as 
+
+
+```cpp
+for(int i=0; i<X.size(); ++i) f(X[i]); 
+```
+with 
+- the $\mathcal{X}$ implemented as `vector<T> X` 
+  - NOTE: the `vector<>` has been used as container because in order to compute the integral we only the need the space to be iterable 
+- the $f(\cdot)$ implemented as `f()` and containing the element-specific logic 
+- the $dx$ implemented as `T x[i]` element 
+
+
 Typical examples includes 
 
 1. Normalization 
@@ -44,4 +57,6 @@ Given a certain $P(X)$ Probability Space or $P(X|Y)$ Conditional Probability Spa
 $$ E_{[P(X|Y)]}(f(x)) = \int_{\mathcal{X}} f(x)dP(X|Y) = \int_{\mathcal{X}} f(x)P(X|Y)dx $$
 
 which again scales $O(N)$ with the $\mathcal{X}$ dimensionality 
+
+
 
