@@ -15,6 +15,12 @@ Material related to an Introductory Statistics Course
 
 
 
+## Lesson 2 - Computational Complexity 
+
+- Theory: [View](https://hackmd.io/0d55xkkqTKSRn3n2kAx6rw)
+
+
+
 ## Markov Process 
 
 ### Lesson 1 - Basic Elements 
