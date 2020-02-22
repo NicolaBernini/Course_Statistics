@@ -41,9 +41,9 @@ The HMM backbone is a Markov Chain defining an evolution in the Latent Space, bu
 - $P(Z|S)$ : Likelihood (according to Bayesian Framework terminology) which acts as Pseudo-Functor or Cross Category Mapping as it defines a probabilistic relationship between the Latent Space (belonging to State Category) and the Observable Space (belonging to Observation Category)
 
 In order to estimate Latent State from Observations an **Inference** needs to be performed and the following types are possible 
-- Filtering : $P(S_{t} | {Z_{\tau}}) \quad \tau = \in [t_{0},t]$ which is focused on estimating only the most recent state from the available knowledge 
+- Filtering : $P(S_{t} | {Z_{\tau}}) \quad \tau \in [t_{0},t]$ which is focused on estimating only the most recent state from the available knowledge 
 - Smoothing : $P(\{S_{\tau}\} | \{Z_{\tau}\}) \quad \tau \in [t_{0},t]$ which is focused on estimating the last states in the $[t_{0}, t]$ timeframe from the available knowledge 
-- Prediction : P(\{S_{\alpha}\} | \{Z_{\tau}\}) \quad \alpha \in [t, t_{1}], \tau \in [t_{0}, t]$ which is focused on estimating the future states in the $[t, t_{1}]$ timeframe from the available knowledge 
+- Prediction : $P(\{S_{\alpha}\} | \{Z_{\tau}\}) \quad \alpha \in [t, t_{1}], \tau \in [t_{0}, t]$ which is focused on estimating the future states in the $[t, t_{1}]$ timeframe from the available knowledge 
 
 
 
