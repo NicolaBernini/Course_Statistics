@@ -10,7 +10,7 @@ Let's now approach the problem of defining a **model** for such a system
 
 An interesting class of models for this goal is the Markov Models class which indentifies a set of models relying on the **Markov Property Assumption** which consists of assuming the stochastic process is without memory so 
 
-$$ P(S_{t+\Delta t} | \{S_{\tau}\}_{\tau = 1:t}) = P(S_{t+\Delta t} | S_{t}) $$
+$$ P(S_{t+\Delta t} | {S_{\tau}}) = P(S_{t+\Delta t} | S_{t}) \quad \tau \in [1,t] $$
 
 The following types of Markov Models exist 
 
