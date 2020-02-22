@@ -3,6 +3,10 @@
 
 Material related to an Introductory Statistics Course 
 
+# NOTES 
+
+This material contains Math in Latex so please install [Tex all the things - Chrome Plugin](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn) 
+
 ## Bayesian Inference 
 
 ### Lesson 1 - Basic Elements 
