@@ -7,6 +7,12 @@ Material related to an Introductory Statistics Course
 
 This material contains Math in Latex so please install [Tex all the things - Chrome Plugin](https://chrome.google.com/webstore/detail/tex-all-the-things/cbimabofgmfdkicghcadidpemeenbffn) 
 
+The MD pages in the repo are **deprecated**, please navigate the content using the Repo Issues starting from [Index](https://github.com/NicolaBernini/Course_Statistics/issues/1) instead 
+
+# DEPRECATED 
+
+Use this [Index](https://github.com/NicolaBernini/Course_Statistics/issues/1) instead 
+
 ## Bayesian Inference 
 
 ### Lesson 1 - Basic Elements 
